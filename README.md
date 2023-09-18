@@ -1,0 +1,3 @@
+- 👋 Hi, I’m Raul Aponte.
+- 👀 I’m interested in nature sciences, engineering, music and typography.
+- 📫 For additional info, contact me: raaapontesu@unal.edu.co.
