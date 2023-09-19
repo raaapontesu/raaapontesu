@@ -1,0 +1,22 @@
+@font-face {
+	font-family: 'Adobe NotDef';
+	src: url('Fuentes/Adobe NotDef/AND-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('Fuentes/Calibri/calibril.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1 {
+            position: relative;
+            background: #944;
+			font-family: 'Calibri';
+            font-size: 50px;
+			font-weight: 700;
+            color: #fff;
+            padding: 10px 15px;
+            margin: 0 -20px 20px -20px;
+        }
