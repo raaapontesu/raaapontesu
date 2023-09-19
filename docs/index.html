@@ -11,5 +11,18 @@
 
     <h1>This is my title. It should be in Calibri Light.</h1>
     <p style="font-family: Adobe NotDef">This is broken text. TOFU. A. B. C.</p>
+
+    <script>
+        // JavaScript code to load external content into the container
+        var container = document.getElementById("external-content");
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "external.html", true);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                container.innerHTML = xhr.responseText;
+            }
+        };
+        xhr.send();
+    </script>
 </body>
 </html>
