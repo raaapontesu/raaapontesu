@@ -1,28 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My title</title>
-    <link href="/CSS/styles.css" rel="stylesheet">
-</head>
-<body>
-    <div id="external-content">
-        <!-- The external HTML content will be injected here -->
-    </div>
-
-    <h1>This is my title. It should be in Calibri Light.</h1>
-    <p style="font-family: Adobe NotDef">This is broken text. TOFU. A. B. C.</p>
-
-    <script>
-        // JavaScript code to load external content into the container
-        var container = document.getElementById("external-content");
-        var xhr = new XMLHttpRequest();
-        xhr.open("GET", "./text/external.html", true);
-        xhr.onreadystatechange = function () {
-            if (xhr.readyState == 4 && xhr.status == 200) {
-                container.innerHTML = xhr.responseText;
-            }
-        };
-        xhr.send();
-    </script>
-</body>
-</html>
+<script>
+(function() {
+  console.log("Hello from GitHub Pages!");
+  document.body.insertAdjacentHTML("beforeend", "<p>JS is running inside iframe.</p>");
+})();
+</script>
